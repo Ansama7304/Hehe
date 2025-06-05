@@ -1,0 +1,306 @@
+### Ai Route
+
+[DialogID] 50
+Character: Ai
+Text: Oh~? You’re the one everyone's been talking about. I watched you from afar. Your smile... it was beautifull.
+Affection: 0
+
+[Answers]
+0. Do I know you?|51
+1. That's... flattering?|52
+
+[DialogID] 51
+Character: Ai
+Text: Not yet... but you will. You will know everything about me.
+Affection: +2
+
+[Answers]
+0. That's little weird you know.|53
+1. Okay... Ai, right?|54
+
+[DialogID] 52
+Character: Ai
+Text: I'm glad. I was worried someone else might've seen you first. That wouldn't do.
+Affection: +3
+
+[DialogID] 53
+Character: Ai
+Text: Weird? No... This is fate. You smiled at me. That means we're bound together, forever.
+Affection: +5
+
+[DialogID] 54
+Character: Ai
+Text: Yes~~ Say my name again. I want to hear it in your voice more.
+Affection: +4
+
+[DialogID] 502
+Character: Ai
+Text: You enjoyed school festival with Ai.
+Affection: +5
+
+[Answers]
+0. [END]|203
+
+[DialogID] 512
+Character: Ai
+Text: Just the two of us~ No one else around ♥
+Affection: +7
+
+[Answers]
+0. [END]|203
+
+### System Route
+
+# Hot Spring Event (Player chooses who to invite)
+
+[DialogID] 510
+Character: System
+Text: You won a trip to the hot springs! One-on-one time incoming...
+Affection: 0
+
+[Answers]
+0. Invite Yuki.|511
+1. Invite Ai.|512
+
+
+### Yuki Route
+
+# Beginning of Yuki's route - initial meeting
+
+[DialogID] 0
+Character: Yuki
+Text: ...Oh. You're the new transfer student, right?
+Affection: 0
+
+[Answers]
+0. Yeah, that's me. I'm [player name].|1
+1. What's it to you?|2
+
+[DialogID] 1
+Character: Yuki
+Text: I see... well, welcome to our school.
+Affection: +3
+
+[Answers]
+0. Thanks. Nice to meet you.|3
+1. You too. I guess.|4
+
+[DialogID] 2
+Character: Yuki
+Text: Hmph. Rude much?
+Affection: -5
+
+[Answers]
+0. Sorry, it's just been a long day.|3
+1. I don’t owe you anything.|5
+
+[DialogID] 3
+Character: Yuki
+Text: I usually eat lunch by the sakura tree... if you ever want to join.
+Affection: +2
+
+[Answers]
+0. That sounds nice.|10
+1. I’ll think about it.|11
+
+[DialogID] 4
+Character: Yuki
+Text: Heh. You’re not like the others.
+Affection: +5
+
+[DialogID] 5
+Character: Yuki
+Text: Whatever. I have better things to do.
+Affection: -10
+
+[DialogID] 10
+Character: Yuki
+Text: Hey... you came. I wasn’t sure you would.
+Affection: 0
+
+[Answers]
+0. Of course I came.|12
+1. I almost didn’t.|13
+
+[DialogID] 11
+Character: Yuki
+Text: I won’t wait around forever.
+Affection: -2
+
+[Answers]
+0. [END]|203
+
+[DialogID] 12
+Character: Yuki
+Text: Heh... you’re sweet when you try.
+Affection: +5
+
+[Answers]
+0. I always try.|14
+1. Only for you.|15
+
+[DialogID] 13
+Character: Yuki
+Text: Wow, okay. You didn’t have to say that out loud.
+Affection: -5
+
+[Answers]
+0. Sorry.|14
+1. I’m just being honest.|16
+
+[DialogID] 14
+Character: Yuki
+Text: So... summer’s coming. Wanna go to the beach?
+Affection: +20
+
+[Answers]
+0. Sounds fun.|17
+1. No thanks.|18
+
+[DialogID] 15
+Character: Yuki
+Text: Y-You’re such a flirt...
+Affection: +10
+
+[Answers]
+0. I just like being around you.|14
+1. You think so?|20
+
+[DialogID] 16
+Character: Yuki
+Text: …You're a bit much sometimes.
+Affection: -5
+
+[Answers]
+0. [END]|203
+
+[DialogID] 17
+Character: Yuki
+Text: Yay! I’ll bring the sunscreen!
+Affection: +5
+
+[Answers]
+0. [CONTINUE]|100
+1. [END]|203
+
+[DialogID] 18
+Character: Yuki
+Text: Hmph. You’re no fun.
+Affection: -10
+
+[Answers]
+0. [END]|203
+
+[Condition]
+Character: Yuki
+MinAffection: 10
+
+# Yuki's beach date (requires Affection >= 10)
+
+[DialogID] 100
+Character: Yuki
+Text: Welcome to the beach~! I’m glad we made it.
+Affection: +15
+
+[Answers]
+0. You look amazing.|101
+1. Let’s swim already!|102
+
+[DialogID] 101
+Character: Yuki
+Text: Y-You idiot! But… thanks.
+Affection: +5
+
+[Answers]
+0. [CONTINUE]|200
+1. [END]|203
+
+[DialogID] 102
+Character: Yuki
+Text: Race you to the water!
+Affection: +3
+
+[Answers]
+0. [END].|203
+
+# Follow-up after beach date
+
+[DialogID] 200
+Character: Yuki
+Text: That was fun. Thanks for today.
+Affection: +2
+
+[Answers]
+0. Let’s do it again sometime.|201
+1. I had fun too.|202
+
+[DialogID] 201
+Character: Yuki
+Text: Pinky promise!
+Affection: +5
+
+[Answers]
+0. [END]|203
+
+[DialogID] 202
+Character: Yuki
+Text: Me too. See you tomorrow?
+Affection: +3
+
+[Answers]
+0. [END]|203
+
+[DialogID] 203
+Character: System
+Text: You have reach the end of current content. Thanks for playing!
+Affection: 0
+
+[Condition]
+Character: Yuki
+MaxAffection: 0
+
+[DialogID] 501
+Character: Yuki
+Text: You enjoyed school festival with Yuki.
+Affection: +5
+
+[DialogID] 511
+Character: Yuki
+Text: E-Eh?! In the same room?! D-Don’t look this way!
+Affection: +7
+
+[Answers]
+0.[END]|203
+
+[Condition]
+Character: Ai
+MinAffection: 10
+
+# BAD END - Yuki Breakup (Yuki Affection <= 0)
+
+[DialogID] 999
+Character: Yuki
+Text: …I don’t think we should see each other anymore.
+Affection: 0
+
+
+[DialogID] 600
+Character: System
+Text: The school festival is conming up. Who do you want to spend it with?
+Affection: 0
+
+[Answers]
+0. Yuki.|501
+1. Ai.|502
+
+
+
+### DEFAULT
+[DialogID] 20
+Character: System
+Text: Who do you want to have a conversation with?
+Affection: 0
+
+[Answers]
+0. Yuki.|0
+1. Ai.|50

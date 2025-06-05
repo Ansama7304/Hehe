@@ -1,0 +1,20 @@
+[Gift]
+Name: Rose
+Cost: 10
+Affects:
+  Yuki=10
+  Ai=5
+
+[Gift]
+Name: Chocolate
+Cost: 8
+Affects:
+  Yuki=5
+  Ai=15
+
+[Gift]
+Name: Book
+Cost: 12
+Affects:
+  Yuki=0
+  Ai=10
