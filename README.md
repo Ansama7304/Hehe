@@ -11,7 +11,6 @@ It's designed for players who enjoy narrative branching, affection-based chaos, 
 
 - Branching dialogue based on affection levels ❤️
 - Multiple endings (including fake ones, because why not)
-- Hot spring episode (of course)
 - Fully text-based because we believe in the power of imagination™
 - AI that may or may not flirt with you
 
