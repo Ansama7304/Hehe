@@ -1,6 +1,6 @@
 # Hehe
 
-🎮 A totally serious, not-at-all chaotic game where things might explode, characters might fall in love, and the code occasionally behaves.
+🎮 A narrative-driven, slightly chaotic C# game where choices matter, affection fluctuates, and yes, things sometimes explode.
 
 ## 💡 About
 
