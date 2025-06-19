@@ -12,7 +12,7 @@ It's designed for players who enjoy narrative branching, affection-based chaos, 
 - Branching dialogue based on affection levels ❤️
 - Multiple endings (including fake ones, because why not)
 - Fully text-based because we believe in the power of imagination™
-- AI that may or may not flirt with you
+- Ai that may or may not flirt with you
 
 ## 🛠️ Built With
 
@@ -38,5 +38,5 @@ This project is licensed under the MIT License.(or not)
 
 ## ✨ Fun Fact
 
-The game may or may not break if you confess to the AI too soon.
+The game may or may not break if you confess to the Ai too soon.
 
